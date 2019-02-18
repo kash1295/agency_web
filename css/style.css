@@ -1661,7 +1661,9 @@ img.logo-default {
   font-size: 200px;
 }
 
+
 .todo{
+
   font-family: Roboto;
   background: -webkit-linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%); /* Chrome 10+, Saf5.1+ */
   background:    -moz-linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%); /* FF3.6+ */
@@ -1857,6 +1859,18 @@ img.logo-default {
   .wrap-about {
     margin: 0 0 75px;
   }
+
+  .todo{
+    
+    width: 100%;
+  }
+
+  #container {
+
+    max-width: 100%;
+  }
+
+
   .about-content {
     margin: 0 auto;
     width: 60%;
@@ -2017,6 +2031,20 @@ img.logo-default {
   .feature-desc a {
     margin: 5px 5px 5px 0;
   }
+
+  .todo {
+    
+    width: 100%;
+    
+  }
+
+  #container {
+
+    max-width: 100%;
+    padding: 0 20px;
+  }
+
+
   /* fun facts */
   /* services */
   #services .title {
@@ -2184,6 +2212,17 @@ img.logo-default {
     margin: 0 auto 75px;
     width: 70%;
   }
+
+  .todo{
+
+    width: 100%;
+  }
+
+  #container {
+    max-width: 100%;
+  }
+
+
   /* services */
   .service-block {
     margin: 0 auto 40px;
