@@ -11,21 +11,24 @@
   
   <meta name="author" content="WebDev">
 
-
- 
   <title>WebDev | Responsive Agency HTML Website</title>
 
 <!-- Mobile Specific Meta
   ================================================== -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
-  <!-- Favicon -->
+   <!-- Favicon -->
   <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
+
   
   <!-- CSS
   ================================================== -->
+  <!-- RS5.0 Main Stylesheet -->
+ 
+  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
-
+ 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <!-- bootstrap.min css -->
   <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
@@ -114,70 +117,122 @@ End Fixed Navigation
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <h2>Blog</h2>
+        <h2>Project</h2>
         <ol class="breadcrumb header-bradcrumb">
           <li><a href="index.html">Home</a></li>
-          <li class="active">Blog</li>
+          <li class="active">Project</li>
         </ol>
       </div>
     </div>
   </div>
 </section>
+  
 
-<section class="posts section">
-  <div class="container">
-    <div class="row">
-      <!-- /section title -->
-        <!-- single blog post -->
-        <article class="col-md-4 col-sm-6 col-xs-12 clearfix " >
-          <div class="post-item">
-            <div class="media-wrapper">
-              <img src="images/blog/post-1.jpg" alt="amazing caves coverimage" class="img-responsive">
-            </div>
-            
-            <div class="content">
-              <h3><a href="single-post1.html">Simple Image Post</a></h3>
-              <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non skateboard dolor brunch.</p>
-              <a class="btn btn-main" href="single-post1.html">Read more</a>
-            </div>
-          </div>            
-        </article>
-        <!-- /single blog post -->
-        
-        <!-- single blog post -->
-        <article class="col-md-4 col-sm-6 col-xs-12 "  >
-          <div class="post-item">
-            <div class="media-wrapper">
-              <img src="images/blog/post-2.jpg" alt="amazing caves coverimage" class="img-responsive">
-            </div>
-            
-            <div class="content">
-              <h3><a href="single-post2.html">Simple Image Post</a></h3>
-              <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non skateboard dolor brunch.</p>
-              <a class="btn btn-main" href="single-post2.html">Read more</a>
-            </div>
-          </div>            
-        </article>
-        <!-- end single blog post -->
-        
-        <!-- single blog post -->
-        <article class="col-md-4 col-sm-6 col-xs-12 "  >
-          <div class="post-item">
-            <div class="media-wrapper">
-              <img src="images/blog/post-3.jpg" alt="amazing caves coverimage" class="img-responsive">
-            </div>
-            
-            <div class="content">
-              <h3><a href="single-post3.html">Simple Image Post</a></h3>
-              <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non skateboard dolor brunch.</p>
-              <a class="btn btn-main" href="single-post3.html">Read more</a>
-            </div>
-          </div>            
-        </article>
-          </div>
-  </div>
+
+
+
+
+<section class="todo section-sm">
+  <div id="container">
+  <h1 id="head-list" >To-Do List <i class="fa fa-plus"></i></h1>
+  <input id="list-inp" type="text" placeholder="Add New Todo">
+
+  <ul id="list">
+    <li><span><i class="fa fa-trash"></i></span> Create To-Do App</li>
+    <li><span><i class="fa fa-trash"></i></span> Upload the project on git</li>
+    <li><span><i class="fa fa-trash"></i></span> Upload it on netlify</li>
+  </ul>
+</div>
+  
 </section>
 
+
+
+
+<!--
+    Start Counter Section
+    ==================================== -->
+    
+    <section  class="counter-wrapper section-sm" >
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <div class="title">
+              <h2>Award-Winning Agency</h2>
+              <p>Vestibulum nisl tortor, consectetur quis imperdiet bibendum, laoreet sed arcu. Sed condimentum iaculis ex, in faucibus lorem accumsan non. Donec mattis tincidunt metus. Morbi sed tortor a risus luctus dignissim.</p>
+            </div>
+          </div>
+          <!-- first count item -->
+          <div class="col-md-3 col-sm-6 col-xs-6 text-center " >
+            <div class="counters-item">
+             <i class="fa fa-clock-o" aria-hidden="true"></i>
+              <div>
+                  <span class="counter" data-count="150">0</span>
+              </div>
+              <h3>Happy Clients</h3>
+            </div>
+          </div>
+          <!-- end first count item -->
+        
+          <!-- second count item -->
+          <div class="col-md-3 col-sm-6 col-xs-6 text-center " >
+            <div class="counters-item">
+            <i class="fa fa-dot-circle-o" aria-hidden="true"></i>
+
+              <div>
+                  <span class="counter" data-count="130">0</span>
+              </div>
+              <h3>Projects completed</h3>
+            </div>
+          </div>
+          <!-- end second count item -->
+        
+          <!-- third count item -->
+          <div class="col-md-3 col-sm-6 col-xs-6 text-center "  >
+            <div class="counters-item">
+              <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+
+              <div>
+                  <span class="counter" data-count="99">0</span>
+              </div>
+                    <h3>Positive feedback</h3>
+              
+            </div>
+          </div>
+          <!-- end third count item -->
+          
+          <!-- fourth count item -->
+          <div class="col-md-3 col-sm-6 col-xs-6 text-center ">
+            <div class="counters-item kill-border">
+           <i class="fa fa-bolt" aria-hidden="true"></i>
+
+              <div>
+                  <span class="counter" data-count="250">0</span>
+              </div>
+              <h3>Cups of Coffee</h3>
+            </div>
+          </div>
+          <!-- end fourth count item -->
+        </div>    <!-- end row -->
+      </div>    <!-- end container -->
+    </section>   <!-- end section -->
+
+<!--
+Start Call To Action
+==================================== -->
+<section class="call-to-action section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <h2>Let's Create Something Together</h2>
+        <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicudin bibendum auctor, <br> nisi elit consequat ipsum, nesagittis sem nid elit. Duis sed odio sitain elit.</p>
+        <a href="contact.html" class="btn btn-main">Contact Us</a>
+      </div>
+    </div>    <!-- End row -->
+  </div>    <!-- End container -->
+</section>   <!-- End section -->
+
+<footer id="footer" class="bg-one">
   <div class="top-footer">
     <div class="container">
       <div class="row">
@@ -196,7 +251,7 @@ End Fixed Navigation
         <div class="col-sm-3 col-md-3 col-lg-3">
           <ul>
             <li><h3>Quick Links</h3></li>
-            <li><a href="Project.html">Project</a></li>
+            <li><a href="projects.html">Projects</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="blog.html">Blog</a></li>
             <li><a href="contact.html">Contact</a></li>
@@ -233,7 +288,11 @@ End Fixed Navigation
     =====================================-->
     
     <!-- Main jQuery -->
-    <script src="plugins/jquery/dist/jquery.min.js"></script>
+   <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+   
     <!-- Bootstrap 3.7 -->
     <script src="plugins/bootstrap/js/bootstrap.min.js"></script>
     <!-- Parallax -->
@@ -248,6 +307,7 @@ End Fixed Navigation
     
     <!-- Custom js -->
     <script src="js/script.js"></script>
+       <script src="js/todo.js"></script>
 
   </body>
   </html>
